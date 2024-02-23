@@ -1,0 +1,27 @@
+.core-item{
+border: 1px solid #EDFED7;
+padding: 1px;
+border-radius: 4px;
+background: #EDFED7;
+margin: 2px;
+}
+
+.core-main-div{
+    padding: 6px;
+    background: #E2EBF8;
+}
+
+.core-title{
+    display: flex;
+}
+
+.core-items-container {
+    /* //display: flex; */
+    flex-wrap: wrap;
+    width: 150px;
+  }
+  
+  .core-item {
+    margin: 4px;
+    min-width: 50px;
+  }

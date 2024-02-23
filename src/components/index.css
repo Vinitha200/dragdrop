@@ -1,0 +1,35 @@
+.main-div {
+    display: flex;
+    justify-content: center;
+    height: 1000px;
+}
+
+
+.ant-card-head {
+    background-color: #1D2671 !important;
+    color: white !important;
+    font-weight: 500;
+}
+
+.drag-box {
+    margin: 20px;
+    min-width: 200px;
+    max-width: fit-content;
+    height: 150px;
+}
+
+.drop-box {
+    margin: 20px;
+    min-width: 200px;
+    max-width: fit-content;
+}
+
+.card-content {
+    background: #71CA00;
+    color: white;
+    height: 82px;
+}
+
+.dragged-item {
+    background-color: #EDFED7;
+}

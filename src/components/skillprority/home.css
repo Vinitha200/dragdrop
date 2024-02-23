@@ -1,0 +1,39 @@
+.drop-item {
+    border: 1px solid #feebeb;
+    padding: 1px;
+    border-radius: 4px;
+    /* background: #feebeb; */
+    margin: 2px;
+  }
+  
+  .drop-main-div {
+    padding: 6px;
+    background: #e2ebf8;
+  }
+  
+  .drop-title {
+    display: flex;
+  }
+  
+.ant-btn-default:not(:disabled):not(.ant-btn-disabled):hover{
+    color: white !important;
+    border-color:  black !important;
+    background: black !important;
+}
+
+.remove-button{
+    color: white !important;
+    border-color:  black !important;
+    background: black !important;
+}
+
+:where(.css-dev-only-do-not-override-1xg9z9n).ant-btn-sm{
+    font-size: 13px !important;
+    height: 22px;
+    margin: 7px;
+}
+
+.drop-card{
+    height:242px;
+    overflow-y: scroll;
+}
