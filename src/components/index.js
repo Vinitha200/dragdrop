@@ -10,6 +10,9 @@ function Main() {
   const [coreSkill, setCoreSkill] = useState([]);
   const [specialSkill, setSpecialSkill] = useState([]);
   const [creativeSkill, setCreativeSkill] = useState([]);
+  const [homeSkill, setHomeSkill] = useState([]);
+  const [schoolSkill, setSchoolSkill] = useState([]);
+  
 
   useEffect(() => {
     setCoreSkill(CoreData);
@@ -17,7 +20,8 @@ function Main() {
     setCreativeSkill(CreativeData);
   }, []);
 
-  
+  console.log("homeSkill",homeSkill)
+  console.log("schoolSkill",schoolSkill)
   return (
     <>
       <div className="main-div">
@@ -78,6 +82,8 @@ function Main() {
               setSpecialSkill={setSpecialSkill}
               creativeSkill={creativeSkill}
               setCreativeSkill={setCreativeSkill}
+              homeData={schoolSkill}
+              setHomeData={setSchoolSkill}
               title="School Priority"
             />
             <HomeDrop
@@ -87,7 +93,10 @@ function Main() {
               setSpecialSkill={setSpecialSkill}
               creativeSkill={creativeSkill}
               setCreativeSkill={setCreativeSkill}
+              homeData={homeSkill}
+              setHomeData={setHomeSkill}
               title="Home Priority"
+
             />
           </Card>
         </div>
